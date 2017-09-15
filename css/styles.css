@@ -241,5 +241,29 @@ figure {
     display: inline;
   }
 
+  .movie:nth-child(1n+2) >
+  .movie-image >
+  .movie-backdrop {
+    display: none;
+  }
+
+  .movie:nth-child(1n+2) >
+  .movie-image >
+  .movie-poster {
+    display: block;
+  }
+
+  .movie:nth-child(1n+2) {
+    width: 33.33%;
+    float: left;
+  }
+
+  footer {
+    clear: both;
+  }
+
+  img {
+    width: 100%;
+  }
 
 }
