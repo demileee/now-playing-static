@@ -196,20 +196,10 @@ figure {
   margin: 0;
 }
 
-@media (max-width:992px) {
+@media (min-width: 768px) {
   body {
     padding-bottom: 0px;
-    padding-left: 60px;
-  }
-
-  .site-logo {
-    position: fixed;
-    top: 1rem;
-    left: 1rem;
-    width: 80px;
-    height: 80px;
-    margin: 0;
-    z-index: 101;
+    padding-left: 80px;
   }
 
   .site-nav {
@@ -218,24 +208,21 @@ figure {
     left: 0;
     width: 80px;
     z-index: 100;
-    background-color: #ffffff;
   }
 
   .site-nav-list,
   .footer-nav-list {
-    margin: 0;
     padding-top: 80px;
-    list-style-type: none;
   }
 
   .site-nav-item {
-    float: left;
-    width: 20%;
-    height: 60px;
-    padding: 0.75em;
-    font-family: "Montserrat", "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 0.6em;
-    text-align: center;
-    text-transform: uppercase;
+    width: 80px;
+  }
+
+  h1.site-logo {
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    z-index: 150;
   }
 }
