@@ -230,3 +230,16 @@ figure {
     display: inline;
   }
 }
+
+@media (min-width: 992px) {
+
+  .movie-overview {
+    display: none;
+  }
+
+  .movie:first-of-type > .movie-details > p {
+    display: inline;
+  }
+
+
+}
